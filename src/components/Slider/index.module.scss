@@ -1,0 +1,13 @@
+.slider {
+    align-items: center;
+    display: flex;
+    margin: 90px auto 0 auto;
+}
+
+.flags {
+    display: flex;
+    flex-grow: 1;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 0 45px;
+}

@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+$borderEffect: url('../../assets/border_effect.svg');
+$bgGradient: linear-gradient(180deg, $orange 0%, rgba($orange, 0.81) 48.96%, $orange 100%);
+$hoverBgGradient: linear-gradient(180deg, #D23E11 0%, rgba(155, 47, 14, 0.81) 48.96%, #CC390B 100%);
+
+.ctaButton {
+    background: $borderEffect, $bgGradient;
+    background-repeat: no-repeat;
+    border: none;
+    color: $fontColor;
+    clip-path: $cornerClip;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    padding: 20px 85px;
+    position: relative;
+    text-transform: uppercase;
+    transition: background-image .5s ease;
+
+    &:hover {
+        background: $borderEffect, $hoverBgGradient;
+        background-repeat: no-repeat;
+    }
+}

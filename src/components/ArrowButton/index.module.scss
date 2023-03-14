@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+
+.arrowBtn {
+    --size: 58px;
+
+    align-items: center;
+    background-color: $orange;
+    border: none;
+    color: #000;
+    clip-path: $cornerClip;
+    cursor: pointer;
+    display: flex;
+    height: var(--size);
+    justify-content: center;
+    width: var(--size);
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #000;
+        color: $fontColor;
+    }
+
+    svg {
+        color: inherit;
+        transform: rotate(180deg);
+    }
+}
+
+.left {
+    transform: rotate(90deg);
+
+    svg {
+        transform: rotate(-90deg);
+    }
+}
+
+.right {
+    
+}

@@ -1,0 +1,14 @@
+$fontColor: #F9F5E1;
+
+// colors
+$white: #F9F5E1;
+$orange: #F25322;
+
+// buttons styles
+$cornerClip: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+// breakpoints
+$bp-big: 1655px;
+$bp-medium: 1420px;
+$bp-small: 875px;
+$bp-smallest: 650px;
