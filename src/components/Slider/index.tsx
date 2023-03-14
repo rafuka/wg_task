@@ -13,11 +13,15 @@ const Slider: FC<SliderProps> = ({
 }) => {
   return (
     <div className={styles.slider}>
-      <ArrowButton direction="left" />
+      <div className={styles.arrowBtnWrapper}>
+        <ArrowButton direction="left" />
+      </div>
       <div className={styles.flags}>
         {flags.map(flag => <Flag {...flag} />)}
       </div>
-      <ArrowButton />
+      <div className={styles.arrowBtnWrapper}>
+        <ArrowButton />
+      </div>
     </div>
   );
 }

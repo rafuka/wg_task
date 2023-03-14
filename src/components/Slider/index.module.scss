@@ -1,13 +1,31 @@
+@import '../../variables.scss';
+
+
 .slider {
     align-items: center;
     display: flex;
     margin: 90px auto 0 auto;
+
+    @media screen and (max-width: $bp-medium) {
+        width: 100%;
+    }
 }
 
 .flags {
     display: flex;
     flex-grow: 1;
     gap: 50px;
-    justify-content: space-around;
     padding: 0 45px;
+
+    @media screen and (max-width: $bp-medium) {
+        width: 100%;
+        overflow-x: scroll;
+        margin: 0 25px;
+    }
+}
+
+.arrowBtnWrapper {
+    @media screen and (max-width: $bp-mobile) {
+        display: none;
+    }
 }

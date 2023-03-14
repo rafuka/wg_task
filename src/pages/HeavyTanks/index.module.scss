@@ -22,12 +22,18 @@
     }
 
     @media screen and (max-width: $bp-smallest) {
+        padding: 0;
+        background-size: auto, 100%, 100%;
+        background-position: 0 0, 0 0, 100% 300px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
         background: url('../../assets/bg_flag.png'), url('../../assets/bg_landscape.png');
         background-color: #1C1B16;
         background-repeat: no-repeat, no-repeat;
         padding: 0;
         background-size: 300px, 200%;
-        background-position: 0 235px, 50% 300px;
+        background-position: 0 235px, 50% 260px;
     }
 
     // background: url('../../assets/main.png');

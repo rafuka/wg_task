@@ -18,9 +18,9 @@
         margin-top: 60px;
     }
 
-    @media screen and (max-width: $bp-smallest) {
+    @media screen and (max-width: $bp-mobile) {
         background-size: 200%;
-        background-position: 50% 60px;
+        background-position: 50% 0;
     }
 }
 
